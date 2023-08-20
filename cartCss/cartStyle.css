@@ -1,0 +1,23 @@
+@import url(/mainCss/headerMenu.css);
+@import url(/cartCss/cartNull.css);
+@import url(/cartCss/cart.css);
+@import url(/mainCss/footer.css);
+@import url(/cartCss/card.css);
+@import url(/cartCss/order.css);
+@import url(/cartCss/payment.css);
+@import url(/mainCss/modalWindowLog.css);
+@import url(/mainCss/modalWindowReg.css);
+
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+:root {
+	--color-purple: #8000ff;
+	--color-white: #ffffff;
+	--color-black: #000;
+	--color-purple-dark: #5900b3;
+	--color-white-dark: #cfcfcf;
+	--color-grey: #6d6d6d;
+}
