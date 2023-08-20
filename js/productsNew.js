@@ -6,7 +6,7 @@ const productsNew = [
 		counterPrice: 1200,
 		oldPrice: 1300,
 		counterOldPrice: 1300,
-		img: "/images/LesPauljpg.jpg",
+		img: "images/LesPauljpg.jpg",
 		counter: 1,
 		instock: 4
 
@@ -18,7 +18,7 @@ const productsNew = [
 		oldPrice: 1200,
 		counterOldPrice: 1200,
 		counterPrice: 1000,
-		img: "/images/Stratocaster.jpg",
+		img: "images/Stratocaster.jpg",
 		counter: 1,
 		instock: 7
 
@@ -30,7 +30,7 @@ const productsNew = [
 		oldPrice: 1300,
 		counterOldPrice: 1300,
 		counterPrice: 1200,
-		img: "/images/Acustik.jpg",
+		img: "images/Acustik.jpg",
 		counter: 1,
 		instock: 3
 	}
