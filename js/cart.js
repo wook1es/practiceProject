@@ -158,7 +158,7 @@ function renderCartItems() {
 											soluta. Architecto
 											quaerat laboriosam </div>
 
-										<img onclick="deleteItem(${item.id})" class="trashcan" src="/icons/cart.svg" alt="">
+										<img onclick="deleteItem(${item.id})" class="trashcan" src="./icons/cart.svg" alt="">
 									</div>
 								</div>
 		`
