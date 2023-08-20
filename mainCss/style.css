@@ -1,0 +1,32 @@
+@import url(storeCard.css);
+@import url(headerMainHidden.css);
+@import url(headerMenu.css);
+@import url(modalWindowLog.css);
+@import url(modalWindowReg.css);
+@import url(slider.css);
+@import url(store.css);
+@import url(headerMain.css);
+@import url(footer.css);
+
+
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+:root {
+  --color-purple: #8000ff;
+  --color-white: #ffffff;
+  --color-black: #000;
+  --color-purple-dark: #5900b3;
+  --color-white-dark: #cfcfcf;
+}

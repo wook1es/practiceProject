@@ -1,0 +1,127 @@
+:root {
+	--color-purple: #8000ff;
+	--color-white: #ffffff;
+	--color-black: #000;
+	--color-purple-dark: #5900b3;
+	--color-purple-more-dark: #45008a;
+	--color-white-dark: #cfcfcf;
+	--color-grey: #6d6d6d;
+}
+
+.footer {
+	width: 100%;
+	height: 600px;
+	background-color: var(--color-purple-more-dark);
+	margin-top: 100px;
+	padding-top: 130px;
+	padding-bottom: 60px;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+
+}
+
+.footer::before {
+	content: '';
+	width: 100%;
+	height: 30px;
+	background-color: var(--color-white);
+	border-radius: 0px 0px 20px 20px;
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+
+.footer__container-wrap {
+	max-width: 1500px;
+	height: 100%;
+	margin: 0 auto;
+	padding-right: 60px;
+	padding-left: 60px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.footer__nav {
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__container {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__header-wrap.footer__header-logotype {
+	font-size: 40px;
+	color: var(--color-white);
+	font-weight: 600;
+}
+
+.footer__link-item {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.footer__list-wrap:not(:last-child) {
+	padding-right: 40px;
+}
+
+.footer__list-contacts {
+	position: relative;
+}
+
+.footer__header-wrap {
+	color: var(--color-white);
+	font-size: 20px;
+	font-weight: 600;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer__list-item {
+	margin-top: 15px;
+	width: max-content
+}
+
+.footer__link-item {
+	color: var(--color-white-dark);
+	font-size: 16px;
+}
+
+.footer__link-item:hover {
+	color: var(--color-grey);
+}
+
+
+.footer__list-follow-us {
+	margin-top: 15px;
+}
+
+.footer__list-pages {
+	margin-top: 15px;
+}
+
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: var(--color-grey);
+	font-size: 14px;
+}
+
+.hidden {
+	display: none;
+}
+
+.trashcan-hidden {
+	display: none;
+}
