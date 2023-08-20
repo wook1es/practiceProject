@@ -1,12 +1,12 @@
-@import url(./mainCss/headerMenu.css);
+@import url(/mainCss/headerMenu.css);
 @import url(/cartCss/cartNull.css);
 @import url(/cartCss/cart.css);
-@import url(./mainCss/footer.css);
+@import url(/mainCss/footer.css);
 @import url(/cartCss/card.css);
 @import url(/cartCss/order.css);
 @import url(/cartCss/payment.css);
-@import url(./mainCss/modalWindowLog.css);
-@import url(./mainCss/modalWindowReg.css);
+@import url(/mainCss/modalWindowLog.css);
+@import url(/mainCss/modalWindowReg.css);
 
 
 body {
