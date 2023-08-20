@@ -6,7 +6,7 @@ const productsTopSelling = [
 		oldPrice: 1300,
 		counterOldPrice: 1300,
 		counterPrice:1200,
-		img: "images/Bass.jpg",
+		img: "./images/Bass.jpg",
 		counter: 1,
 		instock: 3
 	},
@@ -17,7 +17,7 @@ const productsTopSelling = [
 		oldPrice: 1200,
 		counterOldPrice: 1200,
 		counterPrice:1000,
-		img: "images/Humningbird Standartjpg.jpg",
+		img: "./images/Humningbird Standartjpg.jpg",
 		counter: 1,
 		instock: 4
 
@@ -29,7 +29,7 @@ const productsTopSelling = [
 		oldPrice: 1300,
 		counterOldPrice: 1300,
 		counterPrice: 1200,
-		img: "images/J-45 Standart.jpg",
+		img: "./images/J-45 Standart.jpg",
 		counter: 1,
 		instock: 6
 	}
