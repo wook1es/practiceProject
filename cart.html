@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="/cartCss/cartStyle.css">
+	<link rel="stylesheet" href="/mainCss/adaptive.css">
+	<title>GuitarPro Cart</title>
+</head>
+
+<body>
+	<section class="header">
+		<header>
+
+			<!-- modal window registration ======================================= -->
+
+			<div class="background_modal-window hidden"></div>
+			<div class="modal-window_registration hidden">
+				<div class="cross-close">
+					<span class="close"></span>
+					<span class="close-1"></span>
+				</div>
+				<div class="modal-window_conteiner">
+
+					<!-- name ========================================-->
+
+					<form action="">
+						<div class="form-group field-registerform-name">
+							<div class="form_label-conteiner">
+								<label for="name" class="label-text important">Name</label>
+							</div>
+							<div class="form_input-conteiner">
+								<input type="text" class="form-input" name="name" placeholder="name">
+							</div>
+						</div>
+
+						<!-- surname ========================================-->
+
+						<div class="form-group field-registerform-surname">
+							<div class="form_label-conteiner">
+								<label for="surname" class="label-text important">Surname</label>
+							</div>
+							<div class="form_input-conteiner">
+								<input type="text" class="form-input" name="surname" placeholder="surname">
+							</div>
+						</div>
+
+						<!-- number ========================================-->
+
+						<div class="form-group field-registerform-number">
+							<div class="form_label-conteiner">
+								<label for="number" class="label-text important">Number</label>
+							</div>
+							<div class="form_input-conteiner">
+								<input type="text" class="form-input" name="number" placeholder="+7 (...) ... - .. - ..
+              ">
+							</div>
+						</div>
+
+						<!-- e-mail ========================================-->
+
+						<div class="form-group field-registerform-email">
+							<div class="form_label-conteiner">
+								<label for="mail" class="label-text">E-mail</label>
+							</div>
+							<div class="form_input-conteiner">
+								<input type="text" class="form-input" name="mail" placeholder="example@gmail.com">
+							</div>
+						</div>
+
+						<!-- password ========================================-->
+
+						<div class="form-group field-registerform-password">
+							<div class="form_label-conteiner">
+								<label for="password" class="label-text important">Password</label>
+							</div>
+							<div class="form_input-conteiner">
+								<input type="password" class="form-input" name="password" placeholder="password">
+							</div>
+						</div>
+
+						<!-- password confirm ========================================-->
+
+						<div class="form-group field-registerform-password-confirm">
+							<div class="form_label-conteiner">
+								<label for="password-confirm" class="label-text important">Password confirmation</label>
+							</div>
+							<div class="form_input-conteiner">
+								<input type="password" class="form-input" name="password-confirm" placeholder="password">
+							</div>
+						</div>
+
+						<!-- date of birth ========================================-->
+						<div class="form-group field-registerform-date-of-birth">
+							<div class="form_label-conteiner">
+								<label for="date-of-birth" class="label-text">Date of birth</label>
+							</div>
+							<div class="form_input-conteiner">
+								<input type="date" class="form-input" name="date-of-birth">
+							</div>
+						</div>
+
+						<!-- Region ========================================-->
+
+						<div class="form-group field-registerform-region">
+							<div class="form_label-conteiner">
+								<label for="region" class="label-text important">Region</label>
+							</div>
+							<div class="form_input-conteiner">
+								<input type="" class="form-input" name="region">
+							</div>
+						</div>
+						<!-- buttons ========================================-->
+						<div class="form-group buttons-register">
+							<div class="button_remember-me">
+								<div class="form_input-conteiner_button">
+									<input type="checkbox" class="form-input-button" name="remember-me">
+									<label for="remember-me" class="label-text-button">Remember me</label>
+								</div>
+							</div>
+							<div class="have-acc">Already have an account?</div>
+						</div>
+						<div class="button-create-account_conteiner">
+							<div class="button-create-account">Create an account</div>
+						</div>
+				</div>
+				</form>
+			</div>
+
+			<!-- modal window login ==================================================== -->
+			<div class="background_modal-window hidden"></div>
+			<div class="modal-window_login hidden">
+
+				<div class="cross_close-modal-window-login">
+					<span class="close"></span>
+					<span class="close-1"></span>
+				</div>
+
+				<div class="modal-window_conteiner-login">
+
+
+					<form action="">
+
+						<!-- e-mail -->
+
+						<div class="form-group_login field-login-email">
+							<div class="form_label-conteiner_login">
+								<label for="mail" class="label-text">E-mail</label>
+							</div>
+							<div class="form_input-conteiner_login">
+								<input type="text" class="form-input_login" name="mail" placeholder="example@gmail.com">
+							</div>
+						</div>
+
+						<!-- password -->
+
+						<div class="form-group_login field-login-password">
+							<div class="form_label-conteiner_login">
+								<label for="password" class="label-text important">Password</label>
+							</div>
+							<div class="form_input-conteiner_login">
+								<input type="password" class="form-input_login" name="password" placeholder="password">
+							</div>
+						</div>
+
+
+						<!-- buttons -->
+
+						<div class="form-group_login buttons-login">
+							<div class="button_remember-me">
+								<div class="form_input-conteiner_button">
+									<input type="checkbox" class="form-input-button" name="remember-me">
+									<label for="remember-me" class="label-text-button">Remember me</label>
+								</div>
+							</div>
+						</div>
+						<div class="button-create-account_conteiner">
+							<div class="button-create-account">Login</div>
+						</div>
+
+					</form>
+
+
+				</div>
+			</div>
+
+			<!-- /* header menu ================================== */ -->
+
+			<div class="header_main">
+				<div class="header_content">
+					<a class="logo" href="/index.html">
+						<div>
+							<img class="picture-logo" src="/icons/image 1.svg" alt="" />
+							<span class="logo-text">Guitar<span class="purple">Pro</span></span>
+						</div>
+					</a>
+					<nav class="header_nav">
+						<ul class="header_nav-buttons">
+							<li><a class="header_nav-links" href="/index.html#store">Store</a></li>
+							<li><a class="header_nav-links" href="#">Assortment</a></li>
+							<li>
+								<div class="header_nav-links_button">
+									Registration
+									<img class="user-icon" src="/icons/userImage.svg" alt="" />
+								</div>
+							</li>
+
+							<div class="basketIcon">
+								<a href="/cart.html">
+									<img src="/icons/Basket.svg" alt="" />
+									<span class="cart-count"></span>
+								</a>
+							</div>
+
+
+							<!-- /* burger menu ================================== */ -->
+
+							<div class="hamburger-lines">
+								<span class="line line1"></span>
+								<span class="line line2"></span>
+								<span class="line line3"></span>
+							</div>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+	</section>
+
+	<section class="cart">
+		<!-- <div class="background-payment__modal-window"></div>
+		<div class="payment__modal-window">
+			<div class="payment__modal-window_container">
+			</div>
+		</div> -->
+		<div class="cart-wrapper">
+			<div class="cart_empty">
+				<div class="cart_empty-header-text">Cart is empty :(</div>
+				<div class="cart_empty-text">Take a look at the main page to select products or find what you need in the
+					search</div>
+				<a class="cart_btn-back-to-store" href="/index.html">
+					Back to store
+				</a>
+			</div>
+			<div class="cart_container">
+
+				<div class="products-column_contaniner">
+					<div class="cart_main-header">
+						<div class="cart_main-header-text">
+							Cart
+							<span class="counterCart"></span>
+						</div>
+						<div class="clear-cart">clear cart</div>
+					</div>
+					<div class="product-column">
+					</div>
+
+					<!-- <div class="payment__wrap">
+						<div class="payment__container">
+							<div class="payment__header-payment-method">
+								Payment method
+								<i class="fi fi-rr-pencil"><img class="fwa" src="/icons/free-icon-font-pencil-3917376.svg" alt=""></i>
+							</div>
+							<div class="payment__data-card">
+								543153415154
+							</div>
+						</div>
+					</div> -->
+				</div>
+
+				<div class="cart_making-an-order">
+					<div class="subtotal_container">
+						<div class="card_subtitle-delivery">
+							<div>free shipping when ordering from $1500</div>
+							<h2 class="delivery-text">delivery: <span class="green delivery">free</span></h2>
+						</div>
+						<div class="result_container">
+							<div>
+								<div class="num-of-units">
+									Products,<span class="counter_num-of-units"></span>item(s)
+								</div>
+								<div class="subtotal-price">
+									<p>Total</p>
+									<span class="final-price"></span>
+								</div>
+							</div>
+
+							<div class="btn-order">Order</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+	<section class="footer">
+		<footer class="footer__container-wrap">
+			<div class="footer__container">
+				<div class="footer__list-wrap">
+					<div class="footer__list-contacts">
+						<div class="footer__header-wrap footer__header-logotype" data-name="accordeon-title"
+							data-title="GuitarPro">
+							GuitarPro
+						</div>
+						<ul class="footer__list">
+							<li class="footer__list-item">
+								<a class="footer__link-item" href="#">
+									<img src="/icons/sms.svg" alt="">guitarPro.Shop@gmail.com
+								</a>
+							</li>
+							<li class="footer__list-item"><a class="footer__link-item" href="#"><img src="/icons/location.svg"
+										alt="">San
+									Francisco</a></li>
+						</ul>
+					</div>
+					<div class="footer__list-wrap footer__list-follow-us">
+						<div class="footer__list-follow-us">
+							<div class="footer__header-wrap" data-name="accordeon-title" data-title="Follow us">Follow us
+							</div>
+							<ul class="footer__list">
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Facebook</a></li>
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Instagram</a></li>
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Twitter</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer__nav">
+					<div class="footer__list-wrap">
+						<div class="footer__list-to-buyers">
+							<h2 class="footer__header-wrap" data-name="accordeon-title" data-title="To buyers">To buyers
+							</h2>
+							<ul class="footer__list">
+								<li class="footer__list-item"><a class="footer__link-item" href="#">How to place an order</a>
+								</li>
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Payment methods</a></li>
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Delivery</a></li>
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Return of goods</a></li>
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Refund of funds</a></li>
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Rules of sale</a></li>
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Terms of use of the trading
+										platform</a></li>
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Questions and answers</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__list-wrap">
+						<div class="footer__list-partners">
+							<h2 class="footer__header-wrap" data-name="accordeon-title" data-title="Partners">Partners
+							</h2>
+							<ul class="footer__list">
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Sell on GuitarPro</a></li>
+								<li class="footer__list-item"><a class="footer__link-item" href="#">By courier</a></li>
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Carriers</a></li>
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Partner pick-up point</a>
+								</li>
+								<li class="footer__list-item"><a class="footer__link-item" href="#">Franchise pick-up point</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="footer__list-wrap">
+						<div class="footer_list-product">
+							<div class="footer__list-container footer__list-product">
+								<h2 class="footer__header-wrap" data-name="accordeon-title" data-title="Product">Product
+								</h2>
+								<ul class="footer__list">
+									<li class="footer__list-item"><a class="footer__link-item" href="#">Terms</a></li>
+									<li class="footer__list-item"><a class="footer__link-item" href="#">Pricacy Policy</a></li>
+									<li class="footer__list-item"><a class="footer__link-item" href="#">Copyright</a></li>
+								</ul>
+							</div>
+							<div class="footer__list-container footer__list-pages">
+								<h2 class="footer__header-wrap" data-name="accordeon-title" data-title="Pages">Pages
+								</h2>
+								<ul class="footer__list">
+									<li class="footer__list-item"><a class="footer__link-item" href="#">Store</a></li>
+									<li class="footer__list-item"><a class="footer__link-item" href="#">Collections</a></li>
+									<li class="footer__list-item"><a class="footer__link-item" href="#">Support</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">©2023 Copyright.GuitarPro</div>
+		</footer>
+	</section>
+
+	<script src="/js/productsTopSelling.js"></script>
+	<script src="/js/productsNew.js"></script>
+	<script src="/js/cart.js"></script>
+	<script src="/js/modalWindows.js"></script>
+	<script src="/js/accordeon.js"></script>
+</body>
+
+</html>
