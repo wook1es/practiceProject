@@ -1,12 +1,12 @@
-@import url(storeCard.css);
-@import url(headerMainHidden.css);
-@import url(headerMenu.css);
-@import url(modalWindowLog.css);
-@import url(modalWindowReg.css);
-@import url(slider.css);
-@import url(store.css);
-@import url(headerMain.css);
-@import url(footer.css);
+@import url(./storeCard.css);
+@import url(./headerMainHidden.css);
+@import url(./headerMenu.css);
+@import url(./modalWindowLog.css);
+@import url(./modalWindowReg.css);
+@import url(./slider.css);
+@import url(./store.css);
+@import url(./headerMain.css);
+@import url(./footer.css);
 
 
 * {
