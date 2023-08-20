@@ -131,7 +131,6 @@ function renderCartItems() {
 						<div class="cart_card" data-id="${item.id}">
 							<div class="cart_card_container">
 								<div class="cart_card_content">
-									// <img onclick="deleteItem(${item.id})" class="trashcan-hidden" src="./icons/cart.svg" alt="">
 									<div class="img_container"><a href=""> <img class="imgCart" src="${item.img}" alt=""> </a></div>
 									<div class="common-container">
 										<div class="counter-container">
@@ -157,8 +156,6 @@ function renderCartItems() {
 										<div class="cart_subtitle-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero eius itaque velit
 											soluta. Architecto
 											quaerat laboriosam </div>
-
-										// <img onclick="deleteItem(${item.id})" class="trashcan" src="./icons/cart.svg" alt="">
 									</div>
 								</div>
 		`
