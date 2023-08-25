@@ -8,7 +8,7 @@ backgroundModalWindow.addEventListener('click', () => {
 
 // modal register ==================================================//
 
-const buttonRegister = document.querySelector(".header_nav-links_button");
+const buttonRegister = document.querySelectorAll(".header_nav-links_button");
 const buttonCloseModalWindowRegister = document.querySelector(".cross-close");
 const body = document.querySelector('body');
 const alreadyReg = document.querySelector('.have-acc')
@@ -27,8 +27,10 @@ function closeModalReg() {
   body.style.overflowY = 'scroll';
 }
 
-buttonRegister.addEventListener('click', () => {
-  openModalReg()
+buttonRegister.forEach(item => {
+  item.addEventListener('click', () => {
+    openModalReg()
+  })
 })
 
 buttonCloseModalWindowRegister.addEventListener('click', () => {
@@ -43,6 +45,7 @@ alreadyReg.addEventListener('click', () => {
 // modal login ==================================================//
 
 const btnOpenModalWindowLogin = document.querySelector('.header_main-container_button');
+const btnOpenModalWindowLogin1 = document.querySelector('.header_main-container_button1');
 const btnCloseModalWindowLogin = document.querySelector('.cross_close-modal-window-login');
 
 function openModalLog() {
@@ -67,6 +70,13 @@ if (btnOpenModalWindowLogin) {
 btnCloseModalWindowLogin.addEventListener('click', () => {
   closeModalLog()
 })
+
+if (btnOpenModalWindowLogin1) {
+  btnOpenModalWindowLogin1.addEventListener('click', () => {
+    openModalLog()
+  })
+}
+
 
 // burger menu =====================================
 const btnBurgerMenu = document.querySelector('.hamburger-lines');
@@ -97,5 +107,6 @@ btnRegInBurger.addEventListener('click', () => {
   openModalReg()
   mobileNav.classList.add('hidden_mobile-nav')
 })
+
 
 
