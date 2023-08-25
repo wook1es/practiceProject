@@ -1,0 +1,48 @@
+.mobile-nav {
+	position: fixed;
+	width: 290px;
+	height: 100vh;
+	background-color: white;
+	z-index: 100;
+	right: 0;
+	padding: 40px;
+	display: flex;
+	transition: all ease 0.3s;
+}
+
+.cross {
+	cursor: pointer;
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	top: 10px;
+	right: 10px;
+}
+
+.hidden_mobile-nav {
+	right: -100%;
+}
+
+.mobile-nav_close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	cursor: pointer;
+}
+
+.mobile-nav__container {}
+
+.mobile-nav__menu li {
+	margin-bottom: 20px;
+}
+
+.mobile-nav__menu-link {
+	font-size: 20px;
+	color: black;
+	cursor: pointer;
+	width: max-content;
+}
+
+.mobile-nav__menu-link.button-register {
+	cursor: pointer;
+}
