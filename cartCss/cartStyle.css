@@ -1,3 +1,12 @@
+@import url(./cartNull.css);
+@import url(./cart.css);
+@import url(./card.css);
+@import url(./order.css);
+@import url(./payment.css);
+@import url(./mainCss/modalWindowLog.css);
+@import url(./mainCss/modalWindowReg.css);
+@import url(./mainCss/headerMenu.css);
+@import url(./mainCss/footer.css);
 
 body {
 	font-family: "Montserrat", sans-serif;
